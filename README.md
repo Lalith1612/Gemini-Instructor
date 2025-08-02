@@ -6,7 +6,7 @@ An AI-powered tutor application built with Python and Streamlit. It uses Google'
 
 ---
 
-## ✨ Features
+##  Features
 
 -   **Expert Explanations**: Get clear, beginner-friendly explanations on any topic you want to learn.
 -   **Interactive Learning**: Simply type in a concept and let the AI teach you.
@@ -79,7 +79,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 -   **Python**: The core programming language.
 -   **Streamlit**: For creating and running the web application.
