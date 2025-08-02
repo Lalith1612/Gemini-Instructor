@@ -1,17 +1,17 @@
-# 🌐 Gemini Translator App
+# Gemini Instructor
 
-A simple and elegant web application built with Python and Streamlit that uses Google's Gemini 1.5 Flash model to translate text from any language into English.
+An AI-powered tutor application built with Python and Streamlit. It uses Google's Gemini 1.5 Flash model to provide clear and concise explanations of complex concepts.
 
-![Gemini Translator App: https://gemini-instructor-lk1612dzaxv3okurtbwfaa.streamlit.app/
+![Professor Gemini App: https://gemini-translator-lk16125xg2ax8hnm62nalq.streamlit.app/
 
 ---
 
-##  Features
+## ✨ Features
 
-- **Simple Interface**: A clean and intuitive user interface powered by Streamlit.
-- **Real-time Translation**: Get instant translations for your text.
-- **Powered by Gemini**: Utilizes the speed and power of Google's `gemini-1.5-flash` model for accurate and fast results.
-- **Easy to Set Up**: Get the application running locally in just a few steps.
+-   **Expert Explanations**: Get clear, beginner-friendly explanations on any topic you want to learn.
+-   **Interactive Learning**: Simply type in a concept and let the AI teach you.
+-   **Powered by Gemini**: Leverages the advanced reasoning and language capabilities of Google's `gemini-1.5-flash` model.
+-   **Easy to Set Up**: Get the application running on your local machine in just a few steps.
 
 ---
 
@@ -21,15 +21,15 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### Prerequisites
 
-- Python 3.8 or higher
-- A Google AI API Key. You can get one from [Google AI Studio](https://aistudio.google.com/).
+-   Python 3.8 or higher
+-   A Google AI API Key. You can get one from [Google AI Studio](https://aistudio.google.com/).
 
 ### Installation
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://your-repository-url/gemini-translator-app.git
-    cd gemini-translator-app
+    git clone https://your-repository-url/professor-gemini-app.git
+    cd professor-gemini-app
     ```
 
 2.  **Create and activate a virtual environment (recommended):**
@@ -56,11 +56,11 @@ Follow these instructions to get a copy of the project up and running on your lo
     ```
 
 4.  **Set up your API Key:**
-    - Create a file named `.env` in the root of your project directory.
-    - Add your Google AI API key to the `.env` file like this:
-      ```
-      GOOGLE_AI_API_KEY="your_actual_google_ai_api_key_here"
-      ```
+    -   Create a file named `.env` in the root of your project directory.
+    -   Add your Google AI API key to the `.env` file like this:
+        ```
+        GOOGLE_AI_API_KEY="your_actual_google_ai_api_key_here"
+        ```
 
 5.  **Run the application:**
     Open your terminal and run the following command:
@@ -73,16 +73,15 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ## Usage
 
-1.  Enter the text you wish to translate into the text box.
-2.  Click the "Translate" button.
-3.  The English translation will appear below.
+1.  Enter the concept or topic you want to learn about into the text area.
+2.  Click the "Teach Me!" button.
+3.  The AI-generated explanation will appear below.
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **Python**: The core programming language.
-- **Streamlit**: For creating and running the web application.
-- **Google Generative AI SDK**: To interact with the Gemini API.
-- **python-dotenv**: To manage environment variables securely.
-
+-   **Python**: The core programming language.
+-   **Streamlit**: For creating and running the web application.
+-   **Google Generative AI SDK**: To interact with the Gemini API.
+-   **python-dotenv**: To manage environment variables securely.
